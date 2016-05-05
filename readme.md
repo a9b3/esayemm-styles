@@ -13,7 +13,7 @@ Source inside your project.
 ```css
 // inside css
 
-@import '@esayemm-styles'
+@import 'esayemm-styles';
 
 div {
   // card is a class in esayemm-styles
