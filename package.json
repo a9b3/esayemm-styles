@@ -1,0 +1,19 @@
+{
+  "name": "esayemm-styles",
+  "version": "0.0.0",
+  "description": "Shared styles for react-starter-kit boilerplate.",
+  "main": "./src/index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esayemm/esayemm-styles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esayemm/esayemm-styles/issues"
+  },
+  "homepage": "https://github.com/esayemm/esayemm-styles#readme"
+}
