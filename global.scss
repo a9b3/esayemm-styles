@@ -1,5 +1,69 @@
+@import 'normalize.css';
+@import './variables.scss';
+
 :global {
+  // remove link styling
+  a:link,
+  a:visited,
+  a:active {
+    text-decoration: inherit;
+  }
+
   html, body {
-    margin: 0;
+    height: 100%;
+    font-size: $default-font-size;
+    font-size: responsive;
+    color: $default-font-color;
+    font-family: $default-font-family;
+    font-weight: 300;
+    font-smoothing: subpixel-antialiased;
+    line-height: $default-line-height;
+  }
+
+  #mount {
+    height: 100%;
+  }
+
+  // http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  // remove input styling
+  input, textarea{
+    border: none;
+    box-shadow: none;
+    outline: none;
+  }
+  input:focus, textarea:focus {
+    border: none;
+    box-shadow: none;
+    // outline: none;
+  }
+
+  pre {
+    white-space: pre-wrap;
+  }
+
+  code {
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  button {
+    outline: none;
+    border: none;
+  }
+
+  b { font-weight: 500 }
+
+  hr {
+    border: 0;
+    height: 1px;
   }
 }

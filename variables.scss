@@ -72,16 +72,35 @@ $xxl-spacing: 100px;
 
 $fast-anim: .2s;
 
-$xs-font: 8px;
-$sm-font: 12px;
-$md-font: 14px;
-$lg-font: 18px;
-$xl-font: 24px;
-$xxl-font: 40px;
+$xs-font: .5em;
+$sm-font: .85em;
+$md-font: 1em;
+$lg-font: 1.28em;
+$xl-font: 1.71em;
+$xxl-font: 2.85em;
 
 $sm-box-shadow: 0px 5px 5px rgba(black, .05);
+$md-box-shadow: 0px 2px 10px rgba(black, .1);
+$lg-box-shadow: 0 2px 10px rgba(black, .5);
+
+$bounce-timing: cubic-bezier(.68, -.55, .265, 1.55);
 
 $sm-z: 1;
 $md-z: 5;
 $lg-z: 10;
 $xl-z: 100;
+
+$light-font: 100;
+$regular-font: 400;
+$bold-font: 500;
+$bolder-font: 700;
+
+/******************************************************************************
+ Defaults
+ *****************************************************************************/
+
+$default-font-family: 'Helvetica Neue', 'Arial', Sans-Serif;
+$default-font-color: $gray2;
+$default-line-height: 1.4;
+$default-font-size: 14px;
+$default-link-color: $blue1;
