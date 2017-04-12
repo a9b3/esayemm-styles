@@ -1,6 +1,6 @@
 {
   "name": "esayemm-styles",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Shared styles for react-starter-kit boilerplate.",
   "main": "./index.scss",
   "scripts": {
