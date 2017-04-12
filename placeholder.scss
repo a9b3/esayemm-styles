@@ -49,6 +49,13 @@
   }
 }
 
+// make it easier to read, parent must be 100% or bigger than this
+.page-width {
+  width: 100%;
+  max-width: $page-width;
+  margin: 0 auto;
+}
+
 @mixin margin-col($a, $b) {
   margin: $a $b;
 
