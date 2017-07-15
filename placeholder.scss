@@ -38,6 +38,15 @@
   background-repeat: no-repeat;
 }
 
+@mixin hoverBg($color) {
+  transition: background-color .2s;
+
+  &:hover {
+    background-color: $color;
+    transition: background-color .2s;
+  }
+}
+
 @mixin hover($animation-time) {
   opacity: 1;
   transition: opacity $animation-time;
