@@ -1,5 +1,4 @@
 @import './variables';
-@import './keyframes';
 
 .fill-parent {
   width: 100%;
@@ -33,26 +32,26 @@
   align-items: center;
 }
 
-.fill-background {
+.cover-background {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.hover {
-  transition: opacity $fast-anim;
+@mixin hover($animation-time) {
+  opacity: 1;
+  transition: opacity $animation-time;
 
   &:hover {
     cursor: pointer;
     opacity: .7;
-    transition: opacity $fast-anim;
+    transition: opacity $animation-time;
   }
 }
 
-// make it easier to read, parent must be 100% or bigger than this
-.page-width {
+@mixin page-width($max-width) {
   width: 100%;
-  max-width: $page-width;
+  max-width: $max-width;
   margin: 0 auto;
 }
 

@@ -2,28 +2,17 @@
 @import './variables.scss';
 
 :global {
+
+/******************************************************************************
+ RESETS
+ *****************************************************************************/
+
   // remove link styling
   a:link,
   a:visited,
   a:active {
     text-decoration: inherit;
-  }
-
-  html, body {
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    font-size: $default-font-size;
-    font-size: responsive;
-    color: $default-font-color;
-    font-family: $default-font-family;
-    font-weight: 400;
-    font-smoothing: subpixel-antialiased;
-    line-height: $default-line-height;
-  }
-
-  #mount {
-    height: 100%;
+    color: inherit;
   }
 
   // http://www.paulirish.com/2012/box-sizing-border-box-ftw/
@@ -43,7 +32,6 @@
   input:focus, textarea:focus {
     border: none;
     box-shadow: none;
-    // outline: none;
   }
 
   pre {
@@ -53,8 +41,7 @@
   code {
     border-radius: 3px;
     font-family: monospace;
-    font-size: 1rem;
-    line-height: 1rem;
+    font-size: 1em;
   }
 
   button {
@@ -74,4 +61,29 @@
     margin: 0;
     padding: 0;
   }
+  html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+  }
+
+  // custom for app mount
+  #mount {
+    height: 100%;
+  }
+
+/******************************************************************************
+ TYPE
+ *****************************************************************************/
+
+  html {
+    color: $default-font-color;
+    font-size: $default-font-size;
+    font-family: $default-font-family;
+    font-weight: $default-font-weight;
+    line-height: $default-line-height;
+    font-smoothing: subpixel-antialiased;
+  }
+
+  p {margin-bottom: 1.3em;}
 }
