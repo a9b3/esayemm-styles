@@ -4,6 +4,8 @@
   "description": "Shared styles for react-starter-kit boilerplate.",
   "main": "./index.scss",
   "scripts": {
+    "build": "node ./scripts/generate-output.js",
+    "preversion": "npm run build",
     "postversion": "git push && git push --tags && npm publish ./"
   },
   "repository": {

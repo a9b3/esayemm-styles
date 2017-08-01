@@ -1,14 +1,11 @@
 # esayemm-styles
 
-Shared styles for react-starter-kit boilerplate.
-
-This is meant to be used with a webpack project with sensible style loaders.
-Expecting to have postcss-loader (autoprefixer, precss), css-loader, style-loader.
+Shared style variables.
 
 ## Installation
 
-```
-npm i --save esayemm-styles
+```sh
+yarn add esayemm-styles --save
 ```
 
 Source inside your project.
