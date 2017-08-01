@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const variables = require('../variables.js')
 
-const sassFilePath = path.resolve('../variables.scss')
+const sassFilePath = path.resolve(__dirname, '../variables.scss')
 
 const generatedContent = Object.keys(variables).map(key => {
   return `$${key}: ${variables[key]};`
