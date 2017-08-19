@@ -55,12 +55,13 @@ module.exports = {
   lightgray: '#DCE1E9',
   blue1: '#53D8FB',
   slate: '#2e3d49',
+  white: '#ffffff',
 
-  smSpacing: '10px',
-  mdSpacing: '15px',
-  lgSpacing: '30px',
-  xlSpacing: '50px',
-  xxlSpacing: '100px',
+  smSpacing: '1rem',
+  mdSpacing: '1.5rem',
+  lgSpacing: '3rem',
+  xlSpacing: '5rem',
+  xxlSpacing: '10rem',
 
   xsFont: '.5em',
   smFont: '.85em',
