@@ -1,4 +1,9 @@
 module.exports = {
+
+  /*
+   * COLORS
+   */
+
   gray0: '#29292A',
   gray1: '#3E3E3E',
   gray2: '#666667',
@@ -57,11 +62,16 @@ module.exports = {
   slate: '#2e3d49',
   white: '#ffffff',
 
-  smSpacing: '1rem',
-  mdSpacing: '1.5rem',
-  lgSpacing: '3rem',
-  xlSpacing: '5rem',
-  xxlSpacing: '10rem',
+  /*
+   * SIZING
+   */
+
+  spacing1: '6rem',
+  spacing2: '4rem',
+  spacing3: '2rem',
+  spacing4: '1rem',
+  spacing5: '.6rem',
+  spacing6: '.4rem',
 
   xsFont: '.5em',
   smFont: '.85em',
