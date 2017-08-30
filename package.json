@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/esayemm/esayemm-styles#readme",
   "dependencies": {
-    "normalize.css": "^6.0.0"
+    "normalize.css": "^6.0.0",
+    "tinycolor2": "^1.4.1"
   }
 }

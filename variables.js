@@ -1,3 +1,5 @@
+const tinycolor = require('tinycolor2')
+
 module.exports = {
 
   /*
@@ -68,6 +70,9 @@ module.exports = {
     error: '#C67B7D',
     warning: '#FFC937',
     success: '#21A179',
+
+    defaultText: '#666667',
+    defaultTextSecondary: tinycolor('#666667').setAlpha(.7).toString(),
   },
 
   /*
