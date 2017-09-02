@@ -72,7 +72,7 @@ module.exports = {
     success: '#21A179',
 
     defaultText: '#666667',
-    defaultTextSecondary: tinycolor('#666667').setAlpha(.7).toString(),
+    defaultTextSecondary: tinycolor('#666667').setAlpha(.8).toString(),
   },
 
   /*
@@ -94,6 +94,6 @@ module.exports = {
     xlFont: '1.71em',
     xxlFont: '2.85em',
 
-    maxWidth: '70rem',
+    maxWidth: '80rem',
   },
 }
