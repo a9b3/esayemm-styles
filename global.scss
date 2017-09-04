@@ -1,17 +1,6 @@
 @import 'normalize.css';
 @import './variables.scss';
 
-/******************************************************************************
- Defaults
- *****************************************************************************/
-
-$default-link-color: $blue1;
-$default-font-family: 'Helvetica Neue', 'Arial', Sans-Serif;
-$default-font-color: $gray2;
-$default-font-weight: 400;
-$default-line-height: 1.375em;
-$default-font-size: 14px;
-
 :global {
 
 /******************************************************************************
@@ -88,11 +77,11 @@ $default-font-size: 14px;
  *****************************************************************************/
 
   html {
-    font-family: $default-font-family;
-    color: $default-font-color;
-    font-weight: $default-font-weight;
-    font-size: $default-font-size;
-    line-height: $default-line-height;
+    font-family: 'Helvetica Neue', 'Arial', Sans-Serif;
+    color: $defaultText;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.375em;
     letter-spacing: .02em;
     font-smoothing: subpixel-antialiased;
   }
@@ -102,7 +91,7 @@ $default-font-size: 14px;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    color: $gray1;
+    color: inherit;
     margin: 0;
     padding: 0;
     line-height: 1;
