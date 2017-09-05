@@ -26,7 +26,7 @@ module.exports = {
 
     defaultColor: '#666667',
     defaultColorSecondary: tinycolor('#666667').setAlpha(.8).toString(),
-    headerColor: tinycolor('#666667').darken(50).toString(),
+    headerColor: tinycolor('#666667').darken(10).toString(),
   },
 
   sizing: {
