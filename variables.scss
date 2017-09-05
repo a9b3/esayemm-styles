@@ -1,21 +1,22 @@
 // start generate-output
+$white: #ffffff;
+$black: #000000;
 $gray: #363732;
+$lightgray: #DCE1E9;
 $cyan: #81D2C7;
 $blue: #66C3FF;
 $yellow: #FFC937;
 $pink: #D4AFB9;
 $green: #21A179;
 $red: #C67B7D;
-$lightgray: #DCE1E9;
 $slate: #2e3d49;
-$white: #ffffff;
 $brand: #D4AFB9;
 $secondary: #0D0A08;
 $error: #C67B7D;
 $warning: #FFC937;
 $success: #21A179;
-$defaultText: #666667;
-$defaultTextSecondary: rgba(102, 102, 103, 0.8);
+$defaultColor: #666667;
+$defaultColorSecondary: rgba(102, 102, 103, 0.8);
 $headerColor: #000000;
 $spacing1: 6rem;
 $spacing2: 4rem;
@@ -29,12 +30,6 @@ $size3: 1.75em;
 $size4: 1.125em;
 $size5: 1em;
 $size6: .8em;
-$xsFont: .5em;
-$smFont: .85em;
-$mdFont: 1em;
-$lgFont: 1.28em;
-$xlFont: 1.71em;
-$xxlFont: 2.85em;
 $maxWidth: 80rem;
 
 // end generate-output
