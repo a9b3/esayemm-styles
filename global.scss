@@ -78,6 +78,7 @@
 
   html {
     font-family: 'Helvetica Neue', 'Arial', Sans-Serif;
+    text-rendering: optimizeLegibility;
     color: $defaultColor;
     font-weight: 400;
     font-size: 14px;
@@ -87,7 +88,7 @@
   }
 
   p {
-    line-height: 1.6;
+    line-height: 1.85;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -95,6 +96,7 @@
     margin: 0;
     padding: 0;
     line-height: 1;
+    weight: inherit;
   }
 
   h1 {
