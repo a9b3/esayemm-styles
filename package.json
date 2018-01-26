@@ -4,8 +4,6 @@
   "description": "esayemm's shared styles",
   "main": "./global.css",
   "scripts": {
-    "build": "node ./scripts/generate-output.js",
-    "preversion": "npm run build",
     "version": "git add .",
     "postversion": "git push && git push --tags && npm publish ./"
   },
