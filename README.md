@@ -1,6 +1,6 @@
 # esayemm-styles
 
-Shared style variables.
+Style reset.
 
 ## Installation
 

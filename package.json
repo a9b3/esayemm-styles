@@ -1,8 +1,8 @@
 {
   "name": "esayemm-styles",
   "version": "4.0.0",
-  "description": "esayemm's shared styles",
-  "main": "./global.css",
+  "description": "esayemm's style reset",
+  "main": "./index.css",
   "scripts": {
     "version": "git add .",
     "postversion": "git push && git push --tags && npm publish ./"
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/esayemm/esayemm-styles#readme",
   "dependencies": {
-    "normalize.css": "^6.0.0"
+    "normalize.css": "^8.0.0"
   }
 }
