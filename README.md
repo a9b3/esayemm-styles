@@ -10,7 +10,18 @@ Install using yarn
 yarn add esayemm-styles --save
 ```
 
-Import in your main css file
+## Usage
+
+Import wherever you have your global css. This package depends on your project
+being built by webpack.
+
+in js
+
+```js
+import 'esayemm-styles';
+```
+
+or in your css
 
 ```css
 @import '~esayemm-styles';
